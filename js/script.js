@@ -64,7 +64,7 @@ selectorResults.addEventListener('input', () => { //event lorsque la value du se
 })
 
 
-input.converterTemperature('input', () => { //event lorsque la value de l'input est modifiée
-    converter()
+input.addEventListener('input', () => { //event lorsque la value de l'input est modifiée
+    converterTemperature()
 })
 
